@@ -1,0 +1,9 @@
+A = imread('GBRune.png');
+
+% [Starting Pixel LR, Starting Pixel NS, Ending Pixel LR-Starting Pixel LR
+%  , Ending Pixel NS - Starting Pixel 
+A2 = imcrop(A, [399 169 534 502]);
+subplot(1,2,1);
+imshow(A);
+subplot(1,2,2);
+imshow(A2);
