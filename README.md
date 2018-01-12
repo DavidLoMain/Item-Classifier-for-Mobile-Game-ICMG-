@@ -11,10 +11,11 @@ A Good quality is a rune that has a color of purple or orange.
 A Bad quality is a rune that has any other color (Blue, Green, White).
 
 
+# Future possibilities with this Project,
+- Signal to an Arduino Uno to use hardware to tap the screen of the tablet or mobile phone.
+- Automate the process by automatically taking a screenshot every n minutes, then sending
+  the image as an input to the Matlab function
 
 
-
-
-
-There currently is no purpose for tts.m (Created by Siyi Deng, Which requires the license.txt)
+P.S. There currently is no purpose for tts.m (Created by Siyi Deng, Which requires the license.txt)
 but I included in case I want to add tts functionality in the future.
